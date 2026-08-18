@@ -1,0 +1,178 @@
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero-panel,
+.panel {
+  background: #ffffff;
+  border: 1px solid #d7deea;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.hero-panel {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #475569;
+}
+
+.version-card {
+  min-width: 10rem;
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: #eff6ff;
+  color: #1e3a8a;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tab,
+button {
+  border: 1px solid #93c5fd;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  cursor: pointer;
+  padding: 0.65rem 1rem;
+  font: inherit;
+}
+
+.tab.active {
+  background: #1d4ed8;
+  color: #ffffff;
+}
+
+.panel-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.panel {
+  padding: 1.25rem;
+}
+
+.stack {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.two-col {
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
+
+.button-row {
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+}
+
+label {
+  display: grid;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 0.75rem 0.9rem;
+  font: inherit;
+  color: #0f172a;
+  background: #ffffff;
+}
+
+textarea {
+  resize: vertical;
+}
+
+code {
+  background: #e2e8f0;
+  border-radius: 6px;
+  padding: 0.1rem 0.35rem;
+}
+
+.list-block,
+.compact-list {
+  display: grid;
+  gap: 0.75rem;
+  padding-left: 1.1rem;
+}
+
+.compact-list li {
+  line-height: 1.5;
+}
+
+.status,
+.result {
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+}
+
+.pass {
+  color: #166534;
+}
+
+.fail {
+  color: #991b1b;
+}
+
+.graph-frame {
+  overflow: auto;
+  border: 1px solid #d7deea;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #f8fafc, #e2e8f0);
+  padding: 1rem;
+}
+
+svg {
+  width: 100%;
+  min-height: 22rem;
+  transform-origin: top left;
+}
+
+line {
+  stroke: #64748b;
+  stroke-width: 2;
+}
+
+circle {
+  fill: #dbeafe;
+  stroke: #1d4ed8;
+  stroke-width: 2;
+}
+
+svg text {
+  fill: #0f172a;
+  font-size: 13px;
+}
+
+.selected-node circle {
+  fill: #bfdbfe;
+  stroke-width: 3;
+}
+
+@media (max-width: 760px) {
+  .hero-panel {
+    flex-direction: column;
+  }
+}

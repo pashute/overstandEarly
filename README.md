@@ -7,6 +7,14 @@ A minimal React + Vite prototype for the overstand four-stage workflow:
 - **Edit** graph nodes and edges visually in memory
 - **Query** the constructs at runtime without AI
 
+## Technologies
+
+- **React 19** — UI component library
+- **Vite 8** — fast dev server and build tool
+- **@vitejs/plugin-react** — React Fast Refresh support in Vite
+- **oxlint** — fast JavaScript/TypeScript linter
+- **Node.js built-in test runner** — zero-dependency unit tests (`node --test`)
+
 ## Scripts
 
 - `npm install`

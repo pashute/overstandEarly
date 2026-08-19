@@ -8,7 +8,9 @@
     "build": "vite build",
     "lint": "oxlint .",
     "preview": "vite preview",
-    "test": "node --test src/overstand.test.js"
+    "test": "node --test src/overstand.test.js",
+    "test:e2e": "node --test src/api.e2e.test.js",
+    "test:all": "node --test src/overstand.test.js src/api.e2e.test.js"
   },
   "dependencies": {
     "react": "^19.2.8",

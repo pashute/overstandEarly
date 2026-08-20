@@ -1,3 +1,6 @@
+# Filename: specifications.md
+# Version: 0.1
+
 # overstand — specifications
 
 Four-stage React web program. Goal: build human-verifiable knowledge

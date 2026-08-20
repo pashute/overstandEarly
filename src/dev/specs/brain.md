@@ -1,3 +1,6 @@
+# Filename: brain.md
+# Version: 0.1
+
 # overstandEarly — Brain Module Specs
 
 > Telegraphic breakdown. Each section = one implementation phase. Build iteratively; each phase is independently testable.

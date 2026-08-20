@@ -1,3 +1,6 @@
+# Filename: prototype1.md
+# Version: 0.1
+
 # Prototype 1 — Specification
 
 ## Goal
